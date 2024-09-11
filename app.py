@@ -1,11 +1,11 @@
 variable1 = 89
-name = input("What is your name? ")
-
-print("Hello " + name)
-
-birth_year = int(input("Birth year: "))
-age = str(2024 - birth_year)
-print("You are " + age + " years old")
+# name = input("What is your name? ")
+#
+# print("Hello " + name)
+#
+# birth_year = int(input("Birth year: "))
+# age = str(2024 - birth_year)
+# print("You are " + age + " years old")
 # The input() function always returns data as a string. So, we’re converting the
 # result into an integer by calling the built-in int() function.
 
@@ -16,3 +16,32 @@ finding out the attributes of the object. If you execute the following twolines 
 """
 
 print(multilinestring)
+
+n = 5
+print(dir(n))
+string1 = "boyboyss1"
+
+print(string1[2])
+
+# fuck_you = kdkdkdkdkkdkdlslsldlslk;
+# a;
+# a;
+# a;
+# alk;
+# alkkkkkkdddddfjf
+course = 'Python for beginners'
+
+print(course[0: 5])
+
+# we can use formatted strings to ours advantage
+
+name = 'mosh hamedani'
+message = f'hi my name is {name}'
+print(message)
+
+print(message.upper())
+
+contains = 'Python' in course
+print(contains)
+
+print(7 // 5)
