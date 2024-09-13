@@ -61,15 +61,26 @@ else:
     print("beautiful day")
 
 has_high_income = True
-has_good_credit = True
+has_good_credit = False
 
 if has_high_income and has_good_credit:
     print("Eligible for loan")
+else:
+    print("Not eligible for a loan")
 
 # i = 1
 # while i <= 5:
 #     print(i)
 #     i += 1
 
-for i in range(1, 5):
-    print(i)
+# for i in range(1, 5):
+#     print(i)
+
+numbers = [1, 2, 3, 4, 5, 6]
+numbers.append(6)
+numbers.clear()
+
+# Tuples are read only lists
+coordinates = (1, 2, 3)
+print(coordinates)
+print(numbers)
