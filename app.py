@@ -44,4 +44,32 @@ print(message.upper())
 contains = 'Python' in course
 print(contains)
 
-print(7 // 5)
+print(7 % 5)
+
+variable = 10
+variable += 10
+print(variable)
+
+is_hot = True
+is_cold = False
+
+if is_hot:
+    print("hot day")
+elif is_cold:
+    print('cold day')
+else:
+    print("beautiful day")
+
+has_high_income = True
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    print("Eligible for loan")
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+for i in range(1, 5):
+    print(i)
