@@ -23,26 +23,20 @@ string1 = "boyboyss1"
 
 print(string1[2])
 
-# fuck_you = kdkdkdkdkkdkdlslsldlslk;
-# a;
-# a;
-# a;
-# alk;
-# alkkkkkkdddddfjf
 course = 'Python for beginners'
 
 print(course[0: 5])
 
 # we can use formatted strings to ours advantage
 
-name = 'mosh hamedani'
-message = f'hi my name is {name}'
-print(message)
-
-print(message.upper())
-
-contains = 'Python' in course
-print(contains)
+# name = 'mosh hamedani'
+# message = f'hi my name is {name}'
+# print(message)
+#
+# print(message.upper())
+#
+# contains = 'Python' in course
+# print(contains)
 
 print(7 % 5)
 
@@ -63,10 +57,10 @@ else:
 has_high_income = True
 has_good_credit = False
 
-if has_high_income and has_good_credit:
-    print("Eligible for loan")
-else:
-    print("Not eligible for a loan")
+# if has_high_income and has_good_credit:
+#     print("Eligible for loan")
+# else:
+#     print("Not eligible for a loan")
 
 # i = 1
 # while i <= 5:
@@ -77,10 +71,30 @@ else:
 #     print(i)
 
 numbers = [1, 2, 3, 4, 5, 6]
+numbers_copy = numbers.copy()
 numbers.append(6)
-numbers.clear()
-
+# numbers.clear()
+# numbers_copy is the copied list which contains the elements in the original list
 # Tuples are read only lists
 coordinates = (1, 2, 3)
-print(coordinates)
-print(numbers)
+# print(coordinates)
+# print(numbers_copy)
+# print(numbers)
+# x, y, z = coordinates
+# print(x)
+
+# we use dictionaries to store key/value pairs. let's say dictionaries are like maps in Elixir
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+
+}
+print(customer['age'])
+
+
+def greet_user(name):
+    print(f"Hi {name}")
+
+
+print(greet_user("John"))
